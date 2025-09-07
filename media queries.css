@@ -4,7 +4,8 @@
 /* TABLET AND SMALL DESKTOP MODE */
 
 
-@media (min-width: 900px) and (max-width: 1095px) {
+@media screen (min-width: 900px) and (max-width: 1095px) {
+  
 .box1 h1 {
     font-size: 40px;
     font-weight: 550;
@@ -28,7 +29,7 @@
 /* SMALL TABLET AND LARGE MOBILE MODE */
 
 
-@media (min-width: 601px) and (max-width: 899px) {
+@media screen (min-width: 601px) and (max-width: 899px) {
 
 .container {
     padding: 0px 0px;
@@ -118,6 +119,6 @@
 /* MOBILE PHONE MODE */
 
 
-/* @media (max-width: 600px) {
+/* @media screen (max-width: 600px) {
 
 } */

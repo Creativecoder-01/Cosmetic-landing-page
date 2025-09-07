@@ -1,0 +1,32 @@
+/* MEDIA QUERIES */
+
+
+/* TABLET AND SMALL DESKTOP MODE */
+
+
+@media (min-width: 900px) and (max-width: 1095px) {
+.box1 h1 {
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.about-grid {
+    width: 50%;
+}
+
+.about-content p {
+    text-align: center;
+}
+
+.product-images {
+    flex-wrap: wrap;
+    gap: 100px;
+}
+}
+
+
+/* SMALL TABLET AND LARGE MOBILE MODE */
+
+
+@media (min-width: 601px) and (max-width: 899px) {
+}

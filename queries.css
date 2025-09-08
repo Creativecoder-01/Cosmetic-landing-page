@@ -24,7 +24,7 @@
 
 /* SMALL TABLET AND LARGE MOBILE MODE */
 
-@media screen and (min-width: 601px) and (max-width: 899px) {
+@media screen and (max-width: 899px) {
 
   .container {
     padding: 0px 0px;
@@ -110,6 +110,132 @@
 
 /* MOBILE PHONE MODE */
 
-/* @media screen (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
-} */
+
+
+
+  .box1 h1 {
+  font-size: 40px;
+}
+
+.box1 p {
+  font-size: 16px;
+}
+
+.btn {
+  padding: 3px 10px;
+}
+
+.box2 {
+  width: 400px;
+}
+
+.box2 img {
+  height: 380px;
+}
+
+.about-content h1 {
+  font-size: 40px;
+}
+
+.about-content p {
+  font-size: 16px;
+}
+
+.about-features h3 {
+  font-size: 16px;
+}
+
+.about-features p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.top-content h1 {
+  font-size: 40px;
+}
+
+.top-content p {
+  font-size: 18px;
+}
+
+.product-images {
+  margin: 60px;
+  padding: 30px;
+}
+
+.all-products-btn {
+  font-size: 16px;
+  padding: 8px 10px;
+}
+
+#footer-container h1{
+  font-size: 40px;
+}
+}
+
+@media screen and (min-width:320px) and (max-width: 445px) {
+  .grid {
+    width: 100%;
+  }
+
+  .box1 h1 {
+  font-size: 30px;
+}
+
+.box1 p {
+  font-size: 14px;
+}
+
+.btn {
+  padding: 3px 8px;
+}
+
+.box2 {
+  width: 300px;
+}
+
+.box2 img {
+  height: 280px;
+}
+
+.about-content h1 {
+  font-size: 30px;
+}
+
+.about-content p {
+  font-size: 14px;
+}
+
+.about-features h3 {
+  font-size: 14px;
+}
+
+.about-features p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.top-content h1 {
+  font-size: 30px;
+}
+
+.top-content p {
+  font-size: 16px;
+}
+
+.product-images {
+  margin: 40px;
+  padding: 20px;
+}
+
+.all-products-btn {
+  font-size: 14px;
+  padding: 6px 8px;
+}
+
+#footer-container h1{
+  font-size: 30px;
+}
+}
